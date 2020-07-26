@@ -1,4 +1,5 @@
-# 3D MotionCapture Using Raspberri Pi(2018)
+# 3D Motion Capture Using Raspberry Pi(2018)
 
-Soongsil University SmartSystemSoftware
-YenchulKim, HyewonPark, HanuelBea, HyeinLee
+SmartSystemSoftware department, Soongsil University.
+
+Yenchul Kim, Hyewon Park, Haneul Bea, Hyein Lee
