@@ -198,23 +198,3 @@ int tcpmenu()
 	//WSACleanup();
 	return 0;
 }
-
-/*int udpmain(int argc, char *argv[])
-  {
-  return 0;
-  }*/
-
-/*int tcpmenu(int argc, char *argv[])
-  {
-
-  recv(new_socket, mes, 10000, 0);
-
-  for (int y = 0; y < strlen(mes); y++)
-  {
-  printf("%s\n", mes[y]);
-  }
-
-//closesocket(s);
-//WSACleanup();
-return 0;
-}*/
