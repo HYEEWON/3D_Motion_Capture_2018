@@ -53,25 +53,6 @@ Point3d calculation3D(const Point2d & Point1_2D, const Point2d& Point2_2D, const
 
 	return outPoint;
 }
-//Point3d * calculation3D(int num, const Point2d * Point1_2D, const Point2d * Point2_2D, const Mat & cam1_RT, const Mat & cam2_RT, const Mat & mtx1, const Mat & mtx2, static Point3d * Point_3D)
-//{
-//	Point_3D = new Point3d[num];
-//	Mat pt3D(3, 1, CV_64FC1);
-//	Mat Pt1 = mtx1 * cam1_RT;
-//	Mat Pt2 = mtx2 * cam2_RT;
-//	for (int i = 0; i < num; i++)
-//	{
-//		Mat P1(Point1_2D[i]);
-//		Mat P2(Point2_2D[i]);
-//		triangulatePoints(Pt1, Pt2, P1, P2, pt3D);
-//
-//		double w = pt3D.at<double>(3, 0);
-//		Point_3D[i].x = pt3D.at<double>(0, 0) / w;
-//		Point_3D[i].y = pt3D.at<double>(1, 0) / w;
-//		Point_3D[i].z = pt3D.at<double>(2, 0) / w;
-//	}
-//	return Point_3D;
-//}
 
 void printCameraMatrix(int id)
 {
@@ -81,7 +62,6 @@ void printCameraMatrix(int id)
 	cout << "Y" << endl << T[id] << endl;
 	cout << "RT" << endl << RT[id] << endl;
 }
-
 
 int convertToMat(char * buff, Mat & mtx, Mat & dist, Mat& R, Mat& T, Mat& RT)
 {
