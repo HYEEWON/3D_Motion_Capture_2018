@@ -12,6 +12,3 @@
 ```
 git clone https://github.com/HYEEWON/3D_Motion_Capture_2018.git
 ```
-
-## RUN
-* g++ -o calibration 3D_Motion_Capture_2018/pi_calibration/mainpi.cpp
