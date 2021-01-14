@@ -4,7 +4,7 @@
 #include <unistd.h>
 #include <arpa/inet.h>
 #include <sys/socket.h>
-#include"pose.h"
+#include "pose.h"
 #include "tcpnetwork.h"
 #include "config.h"
 
