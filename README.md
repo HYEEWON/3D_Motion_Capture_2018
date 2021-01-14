@@ -12,20 +12,3 @@
 ```
 git clone https://github.com/HYEEWON/3D_Motion_Capture_2018.git
 ```
-## Settings
-### Computer
-* OS: Windows
-* OpenCV
-* OpenGL
-### Raspberry Pi
-* OpenCV
-
-## Run
-1. Calibration (Raspberry Pi)
-* 
-```
-g++ -o <name> main.cpp calibration.cpp calibration.h `pkg-config --cflags --libs opencv`
-./<name>
-```
-
-2. 
