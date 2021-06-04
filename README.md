@@ -1,5 +1,6 @@
 # 3D Motion Capture Using Raspberry Pi
-## 3D Motion Capture Program Using Raspberry Pi
+
+
 ![system](https://user-images.githubusercontent.com/38900338/104141795-daf02500-53fb-11eb-849d-937f17aed7b5.JPG)
 * openCV, openGL powered by Visual Studio on Windows.
 * Same network workstation between PC and Raspberry Pis using portable home router.
